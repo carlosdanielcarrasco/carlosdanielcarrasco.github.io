@@ -33,16 +33,21 @@ Advisor: Marian Berryhill
 Brain Imaging and EEG Lab, Supervisor: Dr. Daniel Mathalon, PhD MD  
 May 2025 – Present
 
-**Research Data Specialist I**, Office of Energy Infrastructure Safety  
+**Visiting Scientist**, Brigham and Women's Hospital, Mass General Brigham  
+AMP SCZ EEG Consortium  
+2025 – Present
+
+**Research Data Specialist I**, California Office of Energy Infrastructure Safety  
 October 2024 – May 2025
 
 **Graduate Student Researcher**, University of California, Davis  
+Center for Mind & Brain (Luck Lab; Boorman Lab)  
 September 2020 – June 2024
 
 **Learning and Memory Plasticity (LAMP) Program NIH Fellow**, University of California, Davis  
 September 2019 – September 2020
 
-**Inititiative for Maximizing Student Diversity NIH Fellow**, University of California, Davis  
+**Initiative for Maximizing Student Diversity NIH Fellow**, University of California, Davis  
 August 2018 – September 2019
 
 **Lab Manager / Junior Research Specialist**, University of Nevada, Reno  
@@ -63,6 +68,18 @@ August 2015 – December 2017
 
 ---
 
+## Manuscripts in Preparation
+
+**Carrasco, C. D.**, Light, G. A., … Mathalon, D. H. Reduced P300 response with condition-specific habituation differences in clinical high-risk for psychosis: Convergent evidence from ERP amplitude and multivariate decoding.
+
+**Carrasco, C. D.**, … Mathalon, D. H. Deficient alpha-band event-related desynchronization during auditory oddball task performance is associated with increased risk for psychosis in clinical high risk youth.
+
+**Carrasco, C. D.** Wide-coverage intracranial recordings reveal onset-locked P3b and alpha desynchronization that extend toward action.
+
+Wong, M.\*, **Carrasco, C. D.**\*, … Mathalon, D. H. A somatosensory oddball P300 marker of psychosis risk. (\*Co-first authors)
+
+---
+
 ## Talks and Poster Presentations 
 
 <ul>
@@ -74,6 +91,15 @@ August 2015 – December 2017
 ---
 
 ## Honors and Awards
+
+**President's Pick Paper Award**, Society for Psychophysiological Research  
+*For "Using multivariate pattern analysis to increase effect sizes for event-related potential analyses" (Psychophysiology, 2024)*, 2026
+
+**Student Seminar Series Lead Speaker** (twice selected)  
+*UC Davis Cognitive Neuroscience Area*, 2022, 2023
+
+**DataBlitz Speaker**  
+*Cognitive Neuroscience Society, San Francisco, CA*, 2022
 
 **Graduate Student Association Travel Award**  
 *University of California, Davis*, 2023
@@ -103,6 +129,29 @@ August 2015 – December 2017
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+---
+
+## Mentorship
+
+Neha Kaul (B.S. Cognitive Neuroscience, UC Davis, 2025) — Certified Clinical Medical Assistant  
+Saniya Kotwal (B.S. Cognitive Science, UC Davis, 2025) — Associate Product Manager, ShipStation Global  
+Safa Amer (B.S. Neurobiology, Physiology, and Behavior, UC Davis, 2025) — Behavior Specialist  
+Sebastian Lopez (B.S. Cognitive Neuroscience, UC Davis, 2024) — Ph.D. Student, University of Nevada, Reno  
+Samantha Fong (B.S. Cognitive Science, UC Davis, 2023) — Ph.D. Student, UC Santa Cruz  
+Emma Ratnaparkhi (B.S. Neurobiology, Physiology, and Behavior, UC Davis, 2022) — M.D. Student, Frank H. Netter MD School of Medicine, Quinnipiac University  
+Seigo Ninomiya (B.S. Cognitive Science, UC Davis, 2022) — Clinical Research Coordinator, Stanford University  
+Charlize Mitra (B.S. Neurobiology, Physiology, and Behavior, UC Davis, 2022) — Nursing Student, Samuel Merritt University
+
+---
+
+## Grant-Supported Research
+
+**Doctoral research** (Luck Lab, UC Davis; PI: Steven J. Luck)  
+R01EY033329 (National Eye Institute); R01MH087450 and R01MH076226 (National Institute of Mental Health)
+
+**Postdoctoral research** (Mathalon Lab, UCSF & San Francisco VA)  
+PREDICT-DPACC / AMP-SCZ — NIMH U24MH124629 (Grant PIs: Martha Shenton and René Kahn)
 
 ---
 
