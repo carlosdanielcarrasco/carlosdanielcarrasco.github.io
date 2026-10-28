@@ -13,7 +13,7 @@ redirect_from:
 
 ## Summary
 
-Cognitive neuroscientist working with EEG, fMRI, and computational methods to study the human brain. I develop multivariate decoding and dimensionality-reduction tools for EEG/ERP and apply them across basic cognition (attention, working memory) and clinical translation (biomarkers of psychosis risk), working with large consortium datasets (NIH AMP-SCZ, NAPLS). Analysis background spans mixed-effects models, MVPA/decoding, and PCA for high-dimensional neural data.
+Cognitive and computational neuroscientist studying the human brain with EEG (and fMRI) and modern computational methods. I develop multivariate decoding and dimensionality-reduction tools for EEG/ERP and apply them across basic cognition (attention, working memory) and clinical translation (biomarkers of psychosis risk), working with large consortium datasets (NIH AMP-SCZ, NAPLS). Analysis background spans mixed-effects models, MVPA/decoding, and PCA for high-dimensional neural data.
 
 ---
 

@@ -1,27 +1,31 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
 <!doctype html>
-<html lang="en">
-<head>
-  {% include base_path %}
-  <meta charset="utf-8">
-  {% include seo.html %}
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#102d3a">
-  <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
-  <link rel="stylesheet" href="{{ '/assets/css/personal.css' | relative_url }}">
-</head>
-<body class="{% if page.permalink == '/' %}home-page{% else %}interior-page{% endif %}">
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="shell header-inner">
-      <a class="wordmark" href="{{ '/' | relative_url }}">Carlos Daniel Carrasco<span>COGNITIVE NEUROSCIENTIST</span></a>
-      <nav class="desktop-nav" aria-label="Main navigation">
-        <a href="{{ '/#research' | relative_url }}">Research</a>
-        {% for item in site.data.navigation.main %}<a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>{% endfor %}
-      </nav>
-      <details class="mobile-menu"><summary>Menu <span aria-hidden="true">+</span></summary><nav aria-label="Mobile navigation"><a href="{{ '/#research' | relative_url }}">Research</a>{% for item in site.data.navigation.main %}<a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>{% endfor %}</nav></details>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    {{ content }}
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
     </div>
-  </header>
-  {{ content }}
-  <footer class="site-footer"><div class="shell footer-inner"><div><a href="{{ '/' | relative_url }}">Carlos Daniel Carrasco, PhD</a><p>Cognition. Psychosis risk. EEG methods.</p></div><div class="footer-links"><a href="mailto:{{ site.author.email }}">Email ↗</a><a href="{{ site.author.googlescholar }}">Google Scholar ↗</a><a href="{{ site.author.orcid }}">ORCID ↗</a><a href="https://github.com/{{ site.author.github }}">GitHub ↗</a></div></div></footer>
-</body>
+
+    {% include scripts.html %}
+
+  </body>
 </html>
