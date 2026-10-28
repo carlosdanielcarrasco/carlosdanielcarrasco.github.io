@@ -1,16 +1,29 @@
 ---
 layout: archive
-title: "Talks and Poster Presentations"
+title: "Poster Presentations & Talks"
 permalink: /talks/
 author_profile: true
 ---
 
+<p>Conference posters, research talks, and seminars.</p>
+<nav class="presentation-nav" aria-label="Presentation types"><a class="text-link" href="#posters">Poster presentations <span aria-hidden="true">↓</span></a><a class="text-link" href="#talks">Talks &amp; seminars <span aria-hidden="true">↓</span></a></nav>
+
 {% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
+<p><a href="{{ '/talkmap.html' | relative_url }}">See a map of my presentations</a></p>
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<section id="posters" aria-labelledby="posters-title">
+  <h2 id="posters-title">Poster presentations</h2>
+  {% assign posters = site.talks | where: "type", "Poster" | sort: "date" | reverse %}
+  {% for post in posters %}
+    {% include archive-single-talk.html %}
+  {% endfor %}
+</section>
+
+<section id="talks" aria-labelledby="talks-title">
+  <h2 id="talks-title">Talks &amp; seminars</h2>
+  {% assign talks = site.talks | where: "type", "Talk" | sort: "date" | reverse %}
+  {% for post in talks %}
+    {% include archive-single-talk.html %}
+  {% endfor %}
+</section>
